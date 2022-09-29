@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://cdn.tailwindcss.com"></script>
+	<title>MY PORTOFOLIO</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<header>
+		<nav class="drop-shadow-md">
+			<h3>My Portofolio</h3>
+			<ul>
+				<li><a href="index.html#about">About</a></li>
+				<li><a href="index.html#experience">Experience</a></li>
+				<li><a href="index.html#contact">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="opening" >
+			<div class="head-opening mx-auto my-1" >
+				<img src="profil.jpg"width ="200">
+			</div>
+			<div class="content-opening">
+				<h1>HI, WELCOME TO MY PORTOFOLIO</h1>
+				<h3>My Name is Risma Nurhaliza</h3>
+				<p>I'm a Front End Web Developer and UI/UX Designer in Surabaya (Jawa Timur) since 2020 until now.</p>
+				<a class="button-experience drop-shadow-md" href="index.html#experience">My Experience</a>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section id="about" class="px-2">
+			<h2 class="font-bold">About Me</h2>
+			<p>I am 20 years old and currently studying for a bachelor's degree in Informatics at UPN Veteran Jatim. I have an interest in the world of web design and development, besides that I have worked on several projects regarding web development.I am 20 years old and currently studying for a bachelor's degree in Informatics at UPN Veteran Jatim. I have an interest in the world of web design and development, besides that I have worked on several projects regarding web development.</p>
+		</section>
+		<section id="experience">
+			<h2 class="font-bold">My Experience & Skills</h2>
+			<ul>
+				<li id="ui-ux">
+					<img src="Figma.png" width ="500">
+					<div class="content-experience">
+						<h4 class="font-bold">UI/UX (2022)</h4>
+						<p>Ever designed a ui ux website, the development of the Surabaya travel ticket website became more complex and flexible using the figma application.</p>
+					</div>
+				</li>
+				<li id="pemweb">
+					<img src="Siako.png" width ="500">
+					<div class="content-experience">
+						<h4 class="font-bold">Pemrogrman Web (2022)</h4>
+						<p>Working with the team to build a front and back end website with an e-learning theme that is useful as a learning medium for students. This website development uses PHP, javascript, and boostrap.</p>
+					</div>	
+				</li>
+				<li id="ruang-guru">
+					<img src="Studpen.png" width ="500">
+					<div class="content-experience">
+						<h4 class="font-bold">Bootcamp by Ruangguru (2022)</h4>
+						<p>Joined the company PT. Ruang Raya Indonesia by participating in a front end engineering bootcamp (independent study) held by the Ministry of Education and Culture. This activity can increase my experience and hone my skills in the field of web programming.</p>
+					</div>
+				</li>
+			</ul>
+		</section>
+		<section id="contact">
+			<h2 class="font-bold py-2 flex-col md:text-xl sm:text-lg">Contact Me</h2>
+			<form action="index.html" method="post" class="px-0" >
+				<div class="form-control" >
+					<label>Nama</label>
+					<input type="text" name="nama" placeholder="Masukkan Nama Anda">
+				</div>
+				<div class="form-control" >
+					<label>Email</label>
+					<input type="email" name="email" placeholder="Masukkan Email Anda">
+				</div>
+				<div class="textarea-control" >
+					<label>Pesan</label>
+					<textarea name="pesan" rows="4"></textarea>
+				</div>
+				<button type="submit" class="submit bg-[#004643]" >Submit</button>
+			</form>
+		</section>
+	</main>
+	<footer>
+		<div class="copyright">
+			<p>
+                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | created by Risma Nurhaliza
+            </p>
+		</div>
+	</footer>
+</body>
+</html>

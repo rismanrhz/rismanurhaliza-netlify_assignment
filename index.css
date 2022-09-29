@@ -1,0 +1,371 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: poppins;
+}
+body{
+	background-color: #E8E4E6;
+	color: #004643;
+}
+img{
+	width: 100%;
+}
+header{
+		background-color: #F9BC60;
+		color: #004643; 
+	}
+	nav {
+		border: 1px solid#004643;
+		background-color: #004643;
+		display: grid;
+		grid-template-rows: auto auto;
+		color: #E8E4E6;
+		padding: 10px;
+
+	}
+	nav h3{
+		text-align: center;
+	}
+	nav ul{
+		display: grid;
+		grid-template-columns: auto auto auto ;
+		gap: 10px;
+		text-align: center;
+	}
+	nav a {
+		text-decoration: none;
+		color: #E8E4E6;
+	}
+	li{
+		list-style: none;
+	}
+	.opening{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		text-align: center;
+		padding: 40px 10px;
+	}
+	.opening img{
+		border-radius: 100%;
+		width: 200px;
+		align-content: center;
+		justify-content: space-evenly;
+	}
+	.content-opening{
+		display: flex;
+		flex-direction: column;
+	}
+	.button-experience{
+		border: 2px solid#004643;
+		margin: 10px auto;
+		text-align: center;
+		border-radius: 5px;
+		padding: 10px 5px;
+		text-decoration: none;
+		background-color: #004643;
+		color: #F9BC60;
+		width: 150px;
+		font-weight: bold;
+	}
+	.button-experience:hover{
+		background-color: transparent;
+		color: #004643;
+		border: 2px solid#004643;
+	}
+	#about{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		text-align: justify;
+		padding: 20px 10px 40px 10px;
+	}
+	#about h2{
+		text-align: center;
+	}
+	#experience{
+		display: flex;
+		flex-direction: column;
+		background-color: #004643;
+		color: #E8E4E6;
+	}
+	#experience h2{
+		text-align: center;
+		margin: 40px 10px;
+	}
+	#experience ul{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+	#experience li{
+		padding: 10px;
+		display: flex;
+		flex-direction: column;
+
+	}
+	#pemweb{
+		background-color: #F9BC60;
+		color: #004643;
+	}
+	.content-experience{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		text-align: justify;
+
+	}
+	.content-experience h4{
+		text-align: center;
+		margin: 10px 0px;
+	}
+	#contact{
+		display: flex;
+		flex-direction: column;
+		padding: 20px 10px;
+	}
+	#contact h2{
+		text-align: center;
+	}
+	form{
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+	.form-control{
+		display: grid;
+		grid-template-columns: 25% auto ;
+
+	}
+	.textarea-control{
+		display: grid;
+		grid-template-columns: 25% auto ;
+	}
+	.submit{
+		width: 100px;
+		border: 2px solid#004643;
+		margin: auto;
+		background-color: #004643;
+		padding: 5px 10px;
+		border-radius: 5px;
+		color: #E8E4E6;
+		font-weight: bold;
+	}
+	.submit:hover{
+		transition: 0.2s;
+		background-color: #F9BC60;
+		border: 2px solid#F9BC60;
+		color: #004643;
+	}
+	footer{
+		background-color: #004643;
+		display: flex;
+		flex-direction: column;
+		padding: 10px;
+		text-align: center;
+	}
+	footer a{
+		text-decoration: none;
+		color: #E8E4E6;
+	}
+	.copyright{
+		color: #E8E4E6;
+	}
+
+@media only screen and (min-width: 320px) {
+	img{
+	width: 100%;
+	}
+	header{
+		background-color: #F9BC60;
+		color: #004643; 
+	}
+	nav {
+		border: 1px solid#004643;
+		background-color: #004643;
+		display: grid;
+		grid-template-rows: auto auto;
+		color: #E8E4E6;
+		padding: 10px;
+
+	}
+	nav h3{
+		text-align: center;
+	}
+	nav ul{
+		display: grid;
+		grid-template-columns: auto auto auto ;
+		gap: 10px;
+		text-align: center;
+	}
+	nav a {
+		text-decoration: none;
+		color: #E8E4E6;
+	}
+	li{
+		list-style: none;
+	}
+	.opening{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		text-align: center;
+		padding: 40px 10px;
+	}
+	.opening img{
+		border-radius: 100%;
+		width: 200px;
+		align-content: center;
+		justify-content: space-evenly;
+	}
+	.content-opening{
+		display: flex;
+		flex-direction: column;
+	}
+	.button-experience{
+		border: 2px solid#004643;
+		margin: 10px auto;
+		text-align: center;
+		border-radius: 5px;
+		padding: 10px 5px;
+		text-decoration: none;
+		background-color: #004643;
+		color: #F9BC60;
+		width: 150px;
+		font-weight: bold;
+	}
+	.button-experience:hover{
+		background-color: transparent;
+		color: #004643;
+		border: 2px solid#004643;
+	}
+	#about{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		text-align: justify;
+		padding: 20px 10px 40px 10px;
+	}
+	#about h2{
+		text-align: center;
+	}
+	#experience{
+		display: flex;
+		flex-direction: column;
+		background-color: #004643;
+		color: #E8E4E6;
+	}
+	#experience h2{
+		text-align: center;
+		margin: 40px 10px;
+	}
+	#experience ul{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+	#experience li{
+		padding: 10px;
+		display: flex;
+		flex-direction: column;
+
+	}
+	#pemweb{
+		background-color: #F9BC60;
+		color: #004643;
+	}
+	.content-experience{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		text-align: justify;
+
+	}
+	.content-experience h4{
+		text-align: center;
+		margin: 10px 0px;
+	}
+	#contact{
+		display: flex;
+		flex-direction: column;
+		padding: 20px 10px;
+	}
+	#contact h2{
+		text-align: center;
+	}
+	form{
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+	.form-control{
+		display: grid;
+		grid-template-columns: 25% auto ;
+
+	}
+	.textarea-control{
+		display: grid;
+		grid-template-columns: 25% auto ;
+	}
+	.submit{
+		width: 100px;
+		border: 2px solid#004643;
+		margin: auto;
+		background-color: #004643;
+		padding: 5px 10px;
+		border-radius: 5px;
+		color: #E8E4E6;
+		font-weight: bold;
+	}
+	.submit:hover{
+		transition: 0.2s;
+		background-color: #F9BC60;
+		border: 2px solid#F9BC60;
+		color: #004643;
+	}
+	footer{
+		background-color: #004643;
+		display: flex;
+		flex-direction: column;
+		padding: 10px;
+		text-align: center;
+	}
+	footer a{
+		text-decoration: none;
+		color: #E8E4E6;
+	}
+	.copyright{
+		color: #E8E4E6;
+	}
+}
+
+@media only screen and (min-width: 1080px) {
+	nav {
+		display: grid;
+		grid-template-columns: auto auto auto;
+
+	}
+	#about{
+		width: 50%;
+		margin: auto;
+	}
+	#experience li{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+
+	}
+	#experience img {
+		width: 49%;
+	}
+	.content-experience{
+		width: 49%;
+
+	}
+	.content-experience h4{
+		text-align: left;
+		margin: 10px 0px;
+	}
+}
